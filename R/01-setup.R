@@ -10,6 +10,12 @@ func_process_data <- function() {
   
   # process data
   dat_processed <- dat_raw %>%
+    mutate(
+      # select most common cut/color/clarity is reference group
+      cut = relevel(factor(cut, ordered = FALSE), ref = "Ideal"),
+      color = relevel(factor(color, ordered = FALSE), ref = "G"),
+      clarity = relevel(factor(clarity, ordered = FALSE), ref = "VS2")
+    ) %>% 
     rename(
       depth_percent = depth,
       length_mm = x,

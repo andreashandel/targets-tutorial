@@ -1,17 +1,19 @@
 name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
-process_data|stem|67c5dea94c95fe4e|5d77d28c6286fbb9|0a53e86cefaf5606|-1523790402||t20329.6910123303s|s513685b|513685|rds|local|vector|||0.954||
-eda_plot_carat|stem|9522af44d4161903|36cd917e514568b4|cc7b224e85f866db|433821172||t20329.6929006529s|s2678683b|2678683|rds|local|vector|||0.281|package 'ggplot2' was built under R version 4.4.3|
-eda_plot_color|stem|451f1c85c72a973e|0c389debca6c40b5|cc7b224e85f866db|1086948457||t20329.6929033414s|s3219083b|3219083|rds|local|vector|||0.282|package 'ggplot2' was built under R version 4.4.3|
-eda_plot_clarity|stem|6b1f4849ead2da68|5b76ad1156ec04f3|cc7b224e85f866db|-517020989||t20329.6929037681s|s3219094b|3219094|rds|local|vector|||0.281|package 'ggplot2' was built under R version 4.4.3|
-eda_plot_cut|stem|fa6ad3ee03bc50c5|5bd32a68cbe3ab16|cc7b224e85f866db|2052260914||t20329.6929034351s|s3219089b|3219089|rds|local|vector|||0.265|package 'ggplot2' was built under R version 4.4.3|
-summary_table|stem|be63283df33179fe|d2438ab11dadd074|3a5ec66b8937a281|-1890126374||t20329.692919899s|s1405747b|1405747|rds|local|vector|||2.203|package 'gtsummary' was built under R version 4.4.3|
-eda_plot_comb|stem|83e50c5062106755|b7ce8c59abcfdae2|eb4665ea2e676fbb|-615297110||t20329.6929538001s|s12380091b|12380091|rds|local|vector|||0.266||
+process_data|stem|19c4593b43ac40fe|5d77d28c6286fbb9|9ee24cdcae6c6bca|-1523790402||t20334.7952742438s|s513607b|513607|rds|local|vector|||0.281||
+eda_plot_carat|stem|b8628a613dab2945|36cd917e514568b4|2d0da8ad970bdced|433821172||t20334.7960169912s|s2678416b|2678416|rds|local|vector|||0.204|package 'ggplot2' was built under R version 4.4.3|
+eda_plot_color|stem|47709f3e6de067d3|0c389debca6c40b5|2d0da8ad970bdced|1086948457||t20334.7960197301s|s3218436b|3218436|rds|local|vector|||0.203|package 'ggplot2' was built under R version 4.4.3|
+eda_plot_clarity|stem|de6c58bcd0bbb0cf|5b76ad1156ec04f3|2d0da8ad970bdced|-517020989||t20334.7960213626s|s3218447b|3218447|rds|local|vector|||0.203|package 'ggplot2' was built under R version 4.4.3|
+eda_plot_cut|stem|2fdf87e42716eddc|5bd32a68cbe3ab16|2d0da8ad970bdced|2052260914||t20334.7960215546s|s3218442b|3218442|rds|local|vector|||0.188|package 'ggplot2' was built under R version 4.4.3|
+eda_plot_comb|stem|3f7c3867c170c25f|b7ce8c59abcfdae2|f29c614a1a8085ab|-615297110||t20334.796062807s|s12378545b|12378545|rds|local|vector|||0.125||
+summary_table|stem|9000ee5c35f6cd6d|d2438ab11dadd074|265cfb02b96d3a58|-1890126374||t20334.7973291296s|s1405332b|1405332|rds|local|vector|||1.609|package 'gtsummary' was built under R version 4.4.3|
+fit_gamma_reg|stem|9b688ac74c2a4150|57bc426a04b82bb1|2eee54e8e10bddf8|368532867||t20334.8002761602s|s8807025b|8807025|rds|local|vector|||0.547||
 controller_local|object|3fdd2a2e197b7ce4
 func_eda_plot_comb|function|419b341242f8d310
 func_summary_table|function|c96b425db2aa7f2e
-.Random.seed|object|2687df0e184fee23
-func_fit_gamma_reg|function|168d8b5dab192ebc
+.Random.seed|object|22b43104258f5a76
+func_fit_gamma_reg|function|2476f9b1d02a86d2
+func_fig_forest_plot|function|dcec6466fda278d3
 n_local_cores|object|a2f3981e584d6a95
-func_process_data|function|4a8b3a0516c0be80
+func_process_data|function|db1e58fcb4809541
 func_eda_plot|function|2bce43341fcd4224
-fit_gamma_reg|stem|acfc8a144e4a53e1|57bc426a04b82bb1|2ae50f25b99c660f|368532867||t20329.6996090293s||9413878|rds|local|vector|||0||object 'carats' not found
+fig_forest_plot|stem|038aae083e374d26|f7e164b850234029|7f60d3ce5a1e5ffc|-1717559358||t20334.808643551s|s9060395b|9060395|rds|local|vector|||27.593|package 'ggplot2' was built under R version 4.4.3|

@@ -117,6 +117,17 @@ list(
     func_fit_gamma_reg(
       data=process_data
     )
+  ),
+  
+  ## 04 figures ====
+  tar_target(
+    fig_forest_plot,
+    func_fig_forest_plot(
+      mod = fit_gamma_reg,
+      file_path = "results/figures/fp-gamma-reg.png",
+      width = 7,
+      height = 4
+    )
   )
 )
 

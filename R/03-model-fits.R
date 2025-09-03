@@ -6,7 +6,9 @@
 
 func_fit_gamma_reg <- function(data) {
   
-  mod_gamma <- glm(price ~ carats + cut + color + clarity,
+  browser()
+  
+  mod_gamma <- glm(price ~ carat + cut + color + clarity,
                    data = data,
                    family = Gamma(link="log"))
   
