@@ -23,8 +23,8 @@ func_fig_forest_plot <- function(mod, file_path, width, height) {
     geom_vline(xintercept = 1, linetype = "dashed", color = "gray50") +
     #scale_x_log10() +
     labs(
-      title = "Gamma Regression Rate Ratios",
-      x = "Rate Ratio (exp(coef))",
+      title = "Gamma Regression Mean Ratios",
+      x = "Mean Ratio (exp(coef))",
       y = NULL
     ) +
     theme_classic() +

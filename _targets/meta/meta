@@ -10,10 +10,10 @@ fit_gamma_reg|stem|9b688ac74c2a4150|57bc426a04b82bb1|2eee54e8e10bddf8|368532867|
 controller_local|object|3fdd2a2e197b7ce4
 func_eda_plot_comb|function|419b341242f8d310
 func_summary_table|function|c96b425db2aa7f2e
-.Random.seed|object|22b43104258f5a76
+.Random.seed|object|0e09dc4bfae2404a
 func_fit_gamma_reg|function|2476f9b1d02a86d2
-func_fig_forest_plot|function|dcec6466fda278d3
+func_fig_forest_plot|function|d13fec53017a52c3
 n_local_cores|object|a2f3981e584d6a95
 func_process_data|function|db1e58fcb4809541
 func_eda_plot|function|2bce43341fcd4224
-fig_forest_plot|stem|038aae083e374d26|f7e164b850234029|7f60d3ce5a1e5ffc|-1717559358||t20334.808643551s|s9060395b|9060395|rds|local|vector|||27.593|package 'ggplot2' was built under R version 4.4.3|
+fig_forest_plot|stem|bc6e6031d2fce62a|f7e164b850234029|908c7d09c5aeb2db|-1717559358||t20347.882688769s|s9060399b|9060399|rds|local|vector|||27.36|package 'ggplot2' was built under R version 4.4.3|
